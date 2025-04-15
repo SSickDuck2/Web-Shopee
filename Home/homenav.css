@@ -1,0 +1,84 @@
+body {
+    font-family: Consolas, monospace;
+    font-weight: Bold;
+    color: white;
+    margin: 0;
+    background-color: #2f3136;
+}
+
+.navbar {
+    background: linear-gradient(#EE3611,#f56143);
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10000000;
+}
+
+#logo {
+    display: flex;
+    align-items: center;
+    width: 240px;
+    height: 60px;
+}
+
+.midnav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#menu {
+    font-size: x-large;
+    position: relative;
+    top: -3px;
+    cursor: pointer;
+}
+
+#thebar {
+    width: 700px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid white;
+}
+
+#cart, #login {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+#cartlink, #loginlink {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.menudrop {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #2f3136;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 20px;
+    z-index: 1000;
+    width: 300px;
+}
+
+.menudrop a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
