@@ -1,59 +1,68 @@
 body {
-    font-family: Consolas, monospace;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-weight: Bold;
     color: white;
     margin: 0;
-    background-color: #2f3136;
+    background-color: #3a3d3d;
 }
 
 .navbar {
-    background: linear-gradient(#EE3611,#f56143);
-    height: 5vh;
+    background-color: #de6b32;
+    height: 6vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
-    gap: 20px;
     position: fixed;
     top: 0;
     width: 100%;
     z-index: 10000000;
+    border-bottom: #000000 1px solid;
 }
 
 #logo {
     display: flex;
     align-items: center;
-    width: 240px;
-    height: 60px;
+    height: 30px;
 }
 
 .midnav {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
 }
 
 #menu {
-    font-size: x-large;
+    font-size: large;
     position: relative;
-    top: -3px;
     cursor: pointer;
+    transform: scaleY(1.1);
+}
+
+#menu:hover {
 }
 
 #thebar {
     width: 700px;
     height: 30px;
-    border-radius: 5px;
+    border-radius: 10px;
     border: 1px solid white;
+    padding: 2px 10px;
 }
 
-#cart, #login {
+#cart {
     width: 50px;
     height: 50px;
+    cursor: pointer;
+}
+
+#login {
+    width: 40px;
+    height: 40px;
     cursor: pointer;
 }
 
@@ -65,6 +74,7 @@ body {
 }
 
 .menudrop {
+    display: none;
     position: absolute;
     top: 100%;
     left: 0;
@@ -81,4 +91,12 @@ body {
     color: white;
     text-decoration: none;
     padding: 5px 10px;
+}
+
+.navdiv {
+    font-size: 8px;
+    transform: scaleY(3);
+    line-height: 20px;
+    height: 22px;
+    color: #ffffff;
 }
