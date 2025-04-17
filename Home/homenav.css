@@ -93,10 +93,47 @@ input[ type="text" ] {
     padding: 5px 10px;
 }
 
-.navdiv {
-    font-size: 8px;
-    transform: scaleY(3);
-    line-height: 20px;
-    height: 22px;
-    color: #ffffff;
+.product-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #fdfdfd;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.product-image {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.product-title {
+    font-size: 1rem;
+    margin: 10px 0;
+}
+
+.product-price {
+    font-weight: bold;
+    color: #007b00;
+}
+
+.add-cart-btn {
+    padding: 6px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.add-cart-btn:hover {
+    background-color: #0056b3;
 }
