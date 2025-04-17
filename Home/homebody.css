@@ -1,4 +1,30 @@
-#placeholder {
-    margin: 0px 250px;
-    background-color: #404650;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: Bold;
+    background: #272C33;
+    color: white;
+}   
+body::before {
+    content: '';
+    position: fixed;
+    top: 6vh;
+    left: 0;
+    width: 100%;
+    height: 6px;
+    background-color: #272C33;
+    z-index: 9998;
+}
+
+
+
+#testthing {
+    padding: 20px 20px;
+    margin-left: 180px;
+    margin-right: 180px;
+    background-color: #EBECED;
 }
