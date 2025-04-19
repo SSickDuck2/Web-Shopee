@@ -6,41 +6,65 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bootleg</title>
+    
     <link href="homenav.css" rel="stylesheet">
+    <link href="homebody.css" rel="stylesheet">
+    <link href="../Resources/Favicon.ico" rel="icon" type="image/x-icon">
+
     <script src="home.js" defer></script>
 </head>
 
 
 
 <body>
-    <div class="navbar">
-        <img id="logo" src="../Resources/logoplacebo.png">
+    <ul class="navbar">
+        <li><a href="home.html"> <img id="logo" src="../Resources/logo placeholder.png"> </a></li>
 
-        <div class="midnav">
-            <span id="menu">☰&#8239;Menu
+        <li id="searchbar">
+            <form id="searchform">
+            <input type="text" placeholder="Search...">
+            <button type="submit"><img id="searchIMG" src="../Resources/search.png"></button>
+            </form>
+        </li>
 
-                <div class="menudrop">
-                    <a href="">Option 1</a>
-                    <a href="">Option 2</a>
-                    <a href="">Option 3</a>
-                    <a href="">Option 4</a>
-                </div>
+        <li><a href="#"> <img id="cartIMG" src="../Resources/cart.png"> </a></li>
 
-            </span>
+        <li><a href="#"> <img id="menuIMG" src="../Resources/menu.png"> </a>
+            <ul class="navdrop">
+                <li><br></li>
+                    <li><a href="#"> Option 1 </a></li>
+                    <li><a href="#"> Option 2 </a></li>
+                    <li><a href="#"> Option 3 </a></li>
+                <li><br></li>
+            </ul>
+        </li>
+        
+        <li><a href="#"> <img id="loginIMG" src="../Resources/user.png"> </a></li>
+    </ul>
 
-            <input id="thebar" type="text" placeholder="click here to search">
+    <p id="testthing" style="color: black;">
+        sadwidjaidjajdiojaodjaj<br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br>
+        <br><br><br><br><br><br><br><br><br><br>
+    </p>
 
-            <a href="" id="cartlink"> <img id="cart" src="../Resources/cart.png"> </a>
-            <a href="" id="loginlink"> <img id="login" src="../Resources/user.png"> </a>
+    <footer class="mainfoot">
+        <div>
+            
         </div>
-    </div>
-
-        <div id="product-list" class="product-list"></div>
-    
+    </footer>
 </body>
 
-
+    
 
 </html>
 
