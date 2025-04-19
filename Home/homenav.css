@@ -4,7 +4,7 @@
     left: 0;
     width: 100%;
     z-index: 9999;
-    background-color: #E58E3B;
+    background: linear-gradient(#FF4D03, #F37103);
     list-style: none;
     height: 6vh;
     display: flex;
