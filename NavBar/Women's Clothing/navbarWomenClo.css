@@ -61,7 +61,7 @@ body::before {
     top: 80px; /* cách đỉnh trang một chút để không bị che bởi header */
     left: 100px;
     width: 15%;
-    height: calc(100vh - 100px); /* chiều cao toàn màn hình trừ khoảng top */
+    height: calc(75vh - 100px); /* chiều cao toàn màn hình trừ khoảng top */
     overflow-y: auto;
     background-color: white;
     padding: 20px;
@@ -229,4 +229,12 @@ body::before {
     margin-top: 10px;
     list-style: none;
     padding-left: 0;
+  }
+
+  .category-filter{
+    margin-top: 10px;
+  }
+  
+  .category-filter h3{
+    margin-bottom: 10px;
   }
